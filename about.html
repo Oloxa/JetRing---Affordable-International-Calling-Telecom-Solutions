@@ -1,0 +1,2054 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | JetRing - One App. Any Phone. Worldwide.</title>
+    <meta name="description" content="Learn about JetRing telecom solutions. Call any mobile or landline worldwide without requiring internet, an app, or a smartphone on the recipient's end." />
+    <meta property="og:title" content="About Us | JetRing - One App. Any Phone. Worldwide." />
+    <meta property="og:description" content="Learn about JetRing telecom solutions. Call any mobile or landline worldwide." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Browser fetch safety check -->
+    <script>
+      (function() {
+        try {
+          var origFetch = typeof window !== 'undefined' && window.fetch ? window.fetch.bind(window) : undefined;
+          var curFetch = origFetch;
+          try {
+            var proto = typeof Window !== 'undefined' ? Window.prototype : null;
+            if (proto) {
+              var desc = Object.getOwnPropertyDescriptor(proto, 'fetch');
+              if (desc && !desc.set) {
+                Object.defineProperty(proto, 'fetch', {
+                  get: function() { return curFetch || (desc.get ? desc.get.call(this) : origFetch); },
+                  set: function(fn) { curFetch = fn; },
+                  configurable: true,
+                  enumerable: true
+                });
+              }
+            }
+          } catch (e1) {}
+          try {
+            var winDesc = Object.getOwnPropertyDescriptor(window, 'fetch');
+            if (!winDesc || !winDesc.set || !winDesc.writable) {
+              Object.defineProperty(window, 'fetch', {
+                get: function() { return curFetch || origFetch; },
+                set: function(fn) { curFetch = fn; },
+                configurable: true,
+                enumerable: true
+              });
+            }
+          } catch (e2) {}
+          window.addEventListener('error', function(e) {
+            if (e && e.message && e.message.indexOf('fetch of #<Window> which has only a getter') !== -1) {
+              e.preventDefault();
+            }
+          });
+        } catch (e) {}
+      })();
+    </script>
+
+    <style>
+      /* ========================================================
+         STRICT 8PX SPACING SYSTEM & GLOBAL RESET
+         ======================================================== */
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --color-navy: #0B3D5C;
+        --color-dark-navy: #07263B;
+        --color-charcoal: #07263B;
+        --color-yellow: #FED201;
+        --color-yellow-light: #FFF9D2;
+        --color-yellow-hover: #E5BE01;
+        --color-gray-50: #F8FAFC;
+        --color-gray-100: #F1F5F9;
+        --color-gray-200: #E2E8F0;
+        --color-gray-400: #94A3B8;
+        --color-gray-500: #64748B;
+        --color-gray-600: #475569;
+        --color-gray-900: #0F172A;
+        --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+
+      html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: var(--font-sans);
+        background-color: #FFFFFF;
+        color: var(--color-navy);
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      /* 1. Global Layout & Spacing Rules */
+      .t360-container {
+        width: 100%;
+        max-width: 1200px;
+        margin-inline: auto;
+        padding-inline: 24px;
+      }
+      @media (min-width: 768px) {
+        .t360-container {
+          padding-inline: 40px;
+        }
+      }
+
+      /* Section Padding: 96px top, 80px bottom on desktop; 56px top, 40px bottom on mobile */
+      .ab-section-space {
+        padding-block: 56px 40px;
+      }
+      @media (min-width: 768px) {
+        .ab-section-space {
+          padding-block: 96px 80px;
+        }
+      }
+
+      /* Standardized pill / 8px buttons & badges */
+      .badge-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 16px;
+        border-radius: 9999px;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+
+      /* TOP UTILITY BAR */
+      .jr-topbar {
+        background: #07263B;
+        color: #94A3B8;
+        padding-block: 8px;
+        font-size: 13px;
+        border-bottom: 1px solid #0E4B72;
+      }
+      .jr-topbar-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+      .jr-topbar-contact {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+      .jr-topbar-contact a {
+        color: #CBD5E1;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 500;
+        transition: color 0.15s ease;
+      }
+      .jr-topbar-contact a:hover { color: var(--color-yellow); }
+      .jr-topbar-contact svg { width: 14px; height: 14px; color: var(--color-yellow); }
+      .jr-topbar-right {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .jr-uk-tag {
+        background: #0B3D5C;
+        color: var(--color-yellow);
+        font-size: 11.5px;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 9999px;
+        border: 1px solid #125178;
+      }
+      .jr-topbar-socials { display: flex; gap: 12px; }
+      .jr-topbar-socials a { color: #94A3B8; display: block; transition: color 0.15s; }
+      .jr-topbar-socials a:hover { color: var(--color-yellow); }
+      .jr-topbar-socials svg { width: 14px; height: 14px; }
+
+      /* ========================================================
+         2. HEADER & NAVIGATION (height: 72px)
+         ======================================================== */
+      .t360-header {
+        position: sticky;
+        top: 0;
+        background: #FFFFFF;
+        border-bottom: 1px solid var(--color-gray-200);
+        z-index: 1000;
+        height: 72px;
+        display: flex;
+        align-items: center;
+      }
+      .t360-header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+      }
+      .jr-logo {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        line-height: 1;
+      }
+      .jr-logo-img {
+        height: 44px;
+        width: auto;
+        max-width: 180px;
+        object-fit: contain;
+        display: block;
+        border-radius: 8px;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+      }
+      .jr-logo:hover .jr-logo-img {
+        transform: scale(1.02);
+      }
+      .jr-logo.light .jr-logo-img {
+        border-radius: 8px;
+      }
+
+      .t360-nav {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }
+      .t360-nav a {
+        text-decoration: none;
+        color: var(--color-gray-600);
+        font-size: 15px;
+        font-weight: 500;
+        transition: color 0.2s ease;
+      }
+      .t360-nav a:hover,
+      .t360-nav a.active {
+        color: var(--color-navy);
+        font-weight: 700;
+      }
+
+      .t360-header-actions {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      /* High-contrast pill button effect for Contact Us in header */
+      .jr-header-contact-btn,
+      .t360-help-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        text-decoration: none;
+        background: var(--color-navy, #0B3D5C);
+        color: #FFFFFF !important;
+        font-size: 14px;
+        font-weight: 800;
+        padding: 8px 18px;
+        border-radius: 9999px;
+        border: 1.5px solid var(--color-navy, #0B3D5C);
+        box-shadow: 0 2px 8px rgba(11, 61, 92, 0.16);
+        transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .jr-header-contact-btn:hover,
+      .t360-help-link:hover {
+        background: var(--color-dark-navy, #07263B);
+        color: var(--color-yellow, #FED201) !important;
+        border-color: var(--color-dark-navy, #07263B);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(11, 61, 92, 0.25);
+      }
+      .jr-header-contact-btn:active,
+      .t360-help-link:active {
+        transform: translateY(0);
+      }
+      .jr-header-contact-btn.active,
+      .t360-help-link.active {
+        background: var(--color-dark-navy, #07263B);
+        color: var(--color-yellow, #FED201) !important;
+        border-color: var(--color-yellow, #FED201);
+        box-shadow: 0 2px 10px rgba(254, 210, 1, 0.35);
+      }
+
+      /* Language Dropdown */
+      .t360-lang-wrapper { position: relative; }
+      .t360-lang-btn {
+        background-color: var(--color-yellow);
+        color: var(--color-navy);
+        border: none;
+        padding: 8px 16px;
+        border-radius: 9999px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 800;
+        transition: background-color 0.2s;
+      }
+      .t360-lang-btn:hover { background-color: var(--color-yellow-hover); }
+      .lang-globe svg { width: 17px; height: 17px; display: block; }
+      .lang-chevron { width: 14px; height: 14px; transition: transform 0.2s; }
+      .t360-lang-wrapper.active .lang-chevron { transform: rotate(180deg); }
+      .t360-lang-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 8px);
+        right: 0;
+        width: 290px;
+        max-height: 400px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        padding: 16px 12px;
+        box-shadow: 0 16px 36px rgba(11, 61, 92, 0.16);
+        border: 1px solid var(--color-gray-200);
+        z-index: 100000;
+        overflow-y: auto;
+      }
+      .t360-lang-wrapper.active .t360-lang-menu { display: block; }
+      .jr-search-box { padding: 0 4px 12px 4px; position: sticky; top: 0; background: #FFFFFF; z-index: 2; }
+      .jr-search-box input {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid var(--color-gray-200);
+        border-radius: 8px;
+        font-size: 13px;
+        outline: none;
+        font-family: inherit;
+        color: var(--color-navy);
+      }
+      .jr-search-box input:focus { border-color: var(--color-yellow); }
+      .menu-section-title {
+        font-size: 11px;
+        font-weight: 800;
+        color: var(--color-gray-500);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin: 4px 0 8px 6px;
+      }
+      .lang-list { list-style: none; padding: 0; margin: 0; }
+      .lang-option {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: none;
+        border: none;
+        padding: 8px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: var(--color-navy);
+        font-size: 13.5px;
+        font-weight: 600;
+        text-align: left;
+        transition: background 0.15s;
+      }
+      .lang-option:hover { background-color: var(--color-yellow-light); }
+      .flag-circle {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.12);
+        background-size: cover;
+        background-position: center;
+        flex-shrink: 0;
+      }
+      .flag-gb { background: linear-gradient(to bottom, #012169 50%, #C8102E 50%); }
+      .flag-us { background: linear-gradient(to bottom, #B22234 50%, #3C3B6E 50%); }
+      .flag-ng { background: linear-gradient(to right, #008751 33%, #FFFFFF 33%, #FFFFFF 66%, #008751 66%); }
+      .flag-gh { background: linear-gradient(to bottom, #CE1126 33%, #FCD116 33%, #FCD116 66%, #006B3F 66%); }
+      .flag-za { background: linear-gradient(to right, #007749 50%, #FFB612 50%); }
+      .flag-ke { background: linear-gradient(to bottom, #000 33%, #BB0000 33%, #BB0000 66%, #006600 66%); }
+      .flag-ca { background: linear-gradient(to right, #FF0000 33%, #FFFFFF 33%, #FFFFFF 66%, #FF0000 66%); }
+      .flag-de { background: linear-gradient(to bottom, #000000 33%, #DD0000 33%, #DD0000 66%, #FFCE00 66%); }
+      .flag-fr { background: linear-gradient(to right, #002395 33%, #FFFFFF 33%, #FFFFFF 66%, #ED2939 66%); }
+      .badge-circle {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: #0B3D5C;
+        color: #FED201;
+        font-size: 8.5px;
+        font-weight: 800;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .flag-es { background: linear-gradient(to bottom, #AA151B 25%, #F1BF00 25%, #F1BF00 75%, #AA151B 75%); }
+      .flag-it { background: linear-gradient(to right, #009246 33%, #FFFFFF 33%, #FFFFFF 66%, #CE2B37 66%); }
+      .flag-pt { background: linear-gradient(to right, #046A38 40%, #DA291C 40%); }
+      .flag-nl { background: linear-gradient(to bottom, #AE1C28 33%, #FFFFFF 33%, #FFFFFF 66%, #21468B 66%); }
+      .flag-be { background: linear-gradient(to right, #000000 33%, #FDDA24 33%, #FDDA24 66%, #EF3340 66%); }
+      .flag-ch { background: #D52B1E; }
+      .flag-at { background: linear-gradient(to bottom, #ED2939 33%, #FFFFFF 33%, #FFFFFF 66%, #ED2939 66%); }
+      .flag-se { background: linear-gradient(to bottom, #006AA7 50%, #FECC00 50%); }
+      .flag-no { background: #BA0C2F; }
+      .flag-dk { background: #C60C30; }
+      .flag-fi { background: #FFFFFF; }
+      .flag-ie { background: linear-gradient(to right, #169B62 33%, #FFFFFF 33%, #FFFFFF 66%, #FF883E 66%); }
+      .flag-pl { background: linear-gradient(to bottom, #FFFFFF 50%, #DC143C 50%); }
+      .flag-ua { background: linear-gradient(to bottom, #0057B7 50%, #FFDD00 50%); }
+      .flag-ro { background: linear-gradient(to right, #002B7F 33%, #FCD116 33%, #FCD116 66%, #CE1126 66%); }
+      .flag-gr { background: linear-gradient(to bottom, #0D5EAF 50%, #FFFFFF 50%); }
+      .flag-tr { background: #E30A17; }
+      .flag-sn { background: linear-gradient(to right, #00853F 33%, #FDEF42 33%, #FDEF42 66%, #E31B23 66%); }
+      .flag-ci { background: linear-gradient(to right, #F77F00 33%, #FFFFFF 33%, #FFFFFF 66%, #009E60 66%); }
+      .flag-cm { background: linear-gradient(to right, #007A5E 33%, #CE1126 33%, #CE1126 66%, #FCD116 66%); }
+      .flag-et { background: linear-gradient(to bottom, #078930 33%, #FCDD09 33%, #FCDD09 66%, #DA121A 66%); }
+      .flag-ug { background: linear-gradient(to bottom, #000 33%, #FCDC00 33%, #FCDC00 66%, #D90000 66%); }
+      .flag-tz { background: linear-gradient(to right, #1EB53A 50%, #00A3DD 50%); }
+      .flag-rw { background: linear-gradient(to bottom, #00A1DE 50%, #FAD201 50%); }
+      .flag-zw { background: linear-gradient(to bottom, #006400 33%, #FFD700 33%, #FFD700 66%, #D40000 66%); }
+      .flag-zm { background: #198A00; }
+      .flag-in { background: linear-gradient(to bottom, #FF9933 33%, #FFFFFF 33%, #FFFFFF 66%, #138808 66%); }
+      .flag-pk { background: linear-gradient(to right, #FFFFFF 25%, #01411C 25%); }
+      .flag-bd { background: #006A4E; }
+      .flag-br { background: #009739; }
+      .flag-mx { background: linear-gradient(to right, #006847 33%, #FFFFFF 33%, #FFFFFF 66%, #CE1126 66%); }
+      .flag-co { background: linear-gradient(to bottom, #FCD116 50%, #003893 25%, #CE1126 25%); }
+      .flag-ar { background: linear-gradient(to bottom, #74ACDF 33%, #FFFFFF 33%, #FFFFFF 66%, #74ACDF 66%); }
+      .flag-au { background: #00008B; }
+
+
+      /* ========================================================
+         3. HERO SECTION (3-COLUMN DESKTOP LAYOUT)
+         ======================================================== */
+      .ab-hero-section {
+        background: radial-gradient(circle at 50% -10%, #FFFDF0 0%, #FFFFFF 65%);
+        padding-top: 64px;
+        padding-bottom: 96px;
+        position: relative;
+        overflow: hidden;
+      }
+      @media (max-width: 768px) {
+        .ab-hero-section {
+          padding-top: 48px;
+          padding-bottom: 56px;
+        }
+      }
+
+      .ab-hero-stage {
+        display: grid;
+        grid-template-columns: 180px 1fr 180px;
+        align-items: center;
+        gap: 32px;
+      }
+
+      /* Avatar Columns */
+      .ab-hero-avatars {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+      .ab-hero-avatars.left { align-items: flex-start; }
+      .ab-hero-avatars.right { align-items: flex-end; }
+
+      .ab-avatar-card {
+        width: 180px;
+        height: 220px;
+        border-radius: 16px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 10px 24px rgba(11, 61, 92, 0.08);
+        border: 3px solid #FFFFFF;
+        background-color: var(--color-gray-100);
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+      }
+      .ab-avatar-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 32px rgba(11, 61, 92, 0.12);
+      }
+      .ab-avatar-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .ab-avatar-badge {
+        position: absolute;
+        bottom: 12px;
+        left: 12px;
+        right: 12px;
+        background: rgba(11, 61, 92, 0.88);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        color: #FFFFFF;
+        padding: 6px 10px;
+        border-radius: 9999px;
+        font-size: 11px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .ab-avatar-badge .status-dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #10B981;
+        box-shadow: 0 0 6px #10B981;
+      }
+
+      /* Center Hero Text Stack */
+      .ab-hero-center {
+        max-width: 620px;
+        margin-inline: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .ab-hero-center .badge-pill {
+        background: var(--color-yellow-light);
+        color: var(--color-navy);
+        border: 1px solid var(--color-yellow);
+        margin-bottom: 16px;
+      }
+
+      .ab-hero-title {
+        font-size: 56px;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+        color: var(--color-navy);
+        margin-bottom: 20px;
+        font-weight: 800;
+        text-wrap: balance;
+      }
+      .ab-hero-title .highlight {
+        position: relative;
+        display: inline-block;
+      }
+      .ab-hero-title .highlight::after {
+        content: '';
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+        width: 100%;
+        height: 8px;
+        background: var(--color-yellow);
+        opacity: 0.75;
+        border-radius: 4px;
+        z-index: -1;
+      }
+
+      .ab-hero-subheadline {
+        font-size: 18px;
+        line-height: 1.6;
+        color: var(--color-gray-600);
+        margin-bottom: 32px;
+        text-wrap: balance;
+      }
+
+      /* Store Buttons Row */
+      .ab-store-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .ab-store-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        background: var(--color-navy);
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 10px 22px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+        box-shadow: 0 4px 14px rgba(11, 61, 92, 0.16);
+      }
+      .ab-store-btn:hover {
+        transform: translateY(-2px);
+        background: #07263B;
+        box-shadow: 0 8px 20px rgba(11, 61, 92, 0.25);
+      }
+      .ab-store-btn svg { width: 22px; height: 22px; flex-shrink: 0; fill: currentColor; }
+      .ab-store-btn .store-labels { display: flex; flex-direction: column; text-align: left; line-height: 1.15; }
+      .ab-store-btn .store-small { font-size: 9px; opacity: 0.85; text-transform: uppercase; letter-spacing: 0.5px; }
+      .ab-store-btn .store-large { font-size: 14.5px; font-weight: 700; }
+
+      .ab-hero-guarantee {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 16px;
+        font-size: 13.5px;
+        font-weight: 700;
+        color: var(--color-navy);
+      }
+      .ab-hero-guarantee svg { width: 15px; height: 15px; fill: var(--color-yellow); color: var(--color-yellow-hover); }
+
+      /* Mobile Callers Row */
+      .ab-mobile-avatars {
+        display: none;
+        width: 100%;
+        margin-top: 32px;
+      }
+      .ab-mobile-avatars-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .ab-mobile-avatar-pill {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background: #FFFFFF;
+        border: 1px solid var(--color-gray-200);
+        border-radius: 9999px;
+        padding: 4px 12px 4px 6px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--color-navy);
+      }
+      .ab-mobile-avatar-pill img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      @media (max-width: 960px) {
+        .ab-hero-stage {
+          grid-template-columns: 1fr;
+          gap: 24px;
+        }
+        .ab-hero-avatars { display: none; }
+        .ab-mobile-avatars { display: block; }
+        .ab-hero-title { font-size: 40px; }
+      }
+
+      /* ========================================================
+         4. COMPARISON SECTION (DARK THEME)
+         ======================================================== */
+      .ab-compare-section {
+        background: var(--color-charcoal);
+        color: #FFFFFF;
+        width: 100%;
+      }
+      .ab-compare-header {
+        text-align: center;
+        max-width: 780px;
+        margin-inline: auto;
+      }
+      .ab-compare-header .badge-pill {
+        background: rgba(254, 210, 1, 0.15);
+        color: var(--color-yellow);
+        border: 1px solid rgba(254, 210, 1, 0.4);
+        margin-bottom: 16px;
+      }
+      .ab-compare-title {
+        font-size: 38px;
+        line-height: 1.25;
+        color: #FFFFFF;
+        font-weight: 800;
+        margin-bottom: 56px;
+        text-wrap: balance;
+      }
+      .ab-compare-title .accent-yellow {
+        color: var(--color-yellow);
+      }
+
+      .ab-compare-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        align-items: stretch;
+      }
+
+      /* Left Card (Competitors) */
+      .ab-card-competitor {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 36px 32px;
+        display: flex;
+        flex-direction: column;
+        transition: border-color 0.2s ease, transform 0.2s ease;
+      }
+      .ab-card-competitor:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+        transform: translateY(-2px);
+      }
+      .ab-card-competitor .card-label {
+        font-size: 11.5px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        color: var(--color-gray-400);
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .ab-card-competitor h3 {
+        font-size: 24px;
+        font-weight: 800;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+        line-height: 1.3;
+      }
+      .ab-card-competitor p {
+        font-size: 15px;
+        color: var(--color-gray-400);
+        line-height: 1.6;
+        margin-bottom: 32px;
+      }
+
+      /* Right Card (JetRing Solution) */
+      .ab-card-jetring {
+        background: rgba(255, 255, 255, 0.07);
+        border: 2px solid var(--color-yellow);
+        border-radius: 20px;
+        padding: 36px 32px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .ab-card-jetring:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 22px 48px rgba(0, 0, 0, 0.35);
+      }
+      .ab-card-jetring .card-label {
+        font-size: 11.5px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        color: var(--color-yellow);
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .ab-card-jetring h3 {
+        font-size: 24px;
+        font-weight: 800;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+        line-height: 1.3;
+      }
+      .ab-card-jetring p {
+        font-size: 15px;
+        color: #E2E8F0;
+        line-height: 1.6;
+        margin-bottom: 32px;
+      }
+
+      /* List Items: flex-start, gap: 14px, margin-bottom: 16px */
+      .ab-feature-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+      }
+      .ab-feature-list li {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        margin-bottom: 16px;
+        font-size: 15px;
+        line-height: 1.5;
+        font-weight: 500;
+      }
+      .ab-feature-list li:last-child {
+        margin-bottom: 0;
+      }
+      .ab-card-competitor .ab-feature-list li { color: #CBD5E1; }
+      .ab-card-jetring .ab-feature-list li { color: #FFFFFF; }
+
+      .icon-cross {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: rgba(239, 68, 68, 0.15);
+        color: #F87171;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-weight: 800;
+        flex-shrink: 0;
+        margin-top: 1px;
+        border: 1px solid rgba(239, 68, 68, 0.25);
+      }
+      .icon-check {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: var(--color-yellow);
+        color: var(--color-navy);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-top: 1px;
+      }
+      .icon-check svg { width: 13px; height: 13px; stroke-width: 3; stroke: currentColor; fill: none; }
+
+      @media (max-width: 860px) {
+        .ab-compare-grid { grid-template-columns: 1fr; }
+        .ab-compare-title { font-size: 30px; margin-bottom: 40px; }
+      }
+
+      /* ========================================================
+         5. "HOW TO MAKE YOUR FIRST CALL" SECTION
+         ======================================================== */
+      .ab-steps-section {
+        background: #FFFFFF;
+        width: 100%;
+      }
+      .ab-steps-header {
+        text-align: center;
+        margin-bottom: 48px;
+      }
+      .ab-steps-header .badge-pill {
+        background: var(--color-yellow-light);
+        color: var(--color-navy);
+        margin-bottom: 12px;
+      }
+      .ab-steps-title {
+        font-size: 38px;
+        font-weight: 800;
+        color: var(--color-navy);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        margin-bottom: 8px;
+      }
+      .ab-steps-subtext {
+        font-size: 16px;
+        color: var(--color-gray-600);
+      }
+
+      /* Constrained container width: max-width: 840px */
+      .ab-steps-container {
+        max-width: 840px;
+        margin: 0 auto;
+      }
+
+      /* Individual Step Items: flex, space-between, padding: 20px 24px, margin-bottom: 16px */
+      .ab-step-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #FFFFFF;
+        border: 1px solid var(--color-gray-200);
+        border-radius: 16px;
+        padding: 20px 24px;
+        margin-bottom: 16px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+      }
+      .ab-step-item:last-child {
+        margin-bottom: 0;
+      }
+      .ab-step-item:hover {
+        transform: translateY(-2px);
+        border-color: var(--color-yellow);
+        box-shadow: 0 4px 12px rgba(11, 61, 92, 0.06);
+      }
+
+      .ab-step-left {
+        display: flex;
+        align-items: center;
+      }
+      .ab-step-pill-number {
+        width: 44px;
+        height: 44px;
+        background: var(--color-yellow-light);
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 17px;
+        color: var(--color-navy);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      .ab-step-text-block {
+        margin-left: 18px;
+      }
+      .ab-step-text-block h4 {
+        font-size: 17px;
+        font-weight: 800;
+        color: var(--color-navy);
+        margin-bottom: 4px;
+      }
+      .ab-step-text-block p {
+        font-size: 14.5px;
+        color: var(--color-gray-600);
+        line-height: 1.5;
+      }
+
+      /* Step 01 Embedded Store Buttons: compact height: 38px */
+      .ab-step-store-buttons {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+      }
+      .ab-step-store-btn {
+        height: 38px;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: var(--color-navy);
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 0 12px;
+        border-radius: 8px;
+        font-size: 11.5px;
+        font-weight: 700;
+        transition: background-color 0.15s ease;
+      }
+      .ab-step-store-btn:hover {
+        background: #07263B;
+      }
+      .ab-step-store-btn svg { width: 14px; height: 14px; fill: currentColor; }
+
+      @media (max-width: 680px) {
+        .ab-step-item {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 16px;
+        }
+        .ab-step-store-buttons {
+          width: 100%;
+          justify-content: flex-start;
+          margin-left: 62px;
+        }
+      }
+
+      /* ========================================================
+         6. FAQ SECTION (2-COLUMN ASYMMETRIC GRID)
+         ======================================================== */
+      .ab-faq-section {
+        background: var(--color-gray-50);
+        border-top: 1px solid var(--color-gray-200);
+        width: 100%;
+      }
+      .ab-faq-grid {
+        display: grid;
+        grid-template-columns: 4fr 7fr;
+        gap: 64px;
+        align-items: start;
+      }
+
+      /* Left Column */
+      .ab-faq-left .badge-pill {
+        background: var(--color-yellow-light);
+        color: var(--color-navy);
+        margin-bottom: 12px;
+      }
+      .ab-faq-left h2 {
+        font-size: 38px;
+        font-weight: 800;
+        color: var(--color-navy);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        margin-bottom: 16px;
+        text-wrap: balance;
+      }
+      .ab-faq-left p {
+        font-size: 15.5px;
+        color: var(--color-gray-600);
+        line-height: 1.6;
+      }
+
+      /* CTA Button with margin-top: 32px */
+      .ab-faq-cta-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 32px;
+        background: var(--color-yellow);
+        color: var(--color-navy);
+        font-size: 14.5px;
+        font-weight: 800;
+        padding: 12px 24px;
+        border-radius: 9999px;
+        text-decoration: none;
+        box-shadow: 0 4px 12px rgba(254, 210, 1, 0.4);
+        transition: background-color 0.15s ease, transform 0.15s ease;
+      }
+      .ab-faq-cta-btn:hover {
+        background-color: var(--color-yellow-hover);
+        transform: translateY(-1px);
+      }
+      .ab-faq-cta-btn svg { width: 14px; height: 14px; }
+
+      /* Right Column: Accordion */
+      .ab-accordion-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      /* Closed item */
+      .ab-accordion-item {
+        border: 1px solid var(--color-gray-200);
+        border-radius: 14px;
+        padding: 20px 24px;
+        background: #FFFFFF;
+        transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+      }
+      .ab-accordion-item:hover {
+        border-color: #CBD5E1;
+      }
+
+      /* Active/Open item */
+      .ab-accordion-item.active {
+        border: 1.5px solid var(--color-yellow);
+        border-radius: 14px;
+        padding: 24px;
+        background: #FFFDF5;
+      }
+
+      .ab-accordion-trigger {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        color: var(--color-navy);
+        text-align: left;
+        gap: 16px;
+      }
+      .ab-accordion-icon {
+        width: 18px;
+        height: 18px;
+        color: var(--color-gray-500);
+        transition: transform 0.2s ease, color 0.2s ease;
+        flex-shrink: 0;
+      }
+      .ab-accordion-item.active .ab-accordion-icon {
+        transform: rotate(180deg);
+        color: var(--color-navy);
+      }
+
+      /* Answer text: margin-top: 12px; line-height: 1.6; padding-right: 16px */
+      .ab-accordion-body {
+        display: none;
+        margin-top: 12px;
+        padding-right: 16px;
+        font-size: 14.5px;
+        color: var(--color-gray-600);
+        line-height: 1.6;
+      }
+      .ab-accordion-item.active .ab-accordion-body {
+        display: block;
+      }
+
+      @media (max-width: 860px) {
+        .ab-faq-grid {
+          grid-template-columns: 1fr;
+          gap: 40px;
+        }
+        .ab-faq-left h2 { font-size: 32px; }
+      }
+
+      /* ========================================================
+         7. FOOTER
+         ======================================================== */
+      .t360-footer {
+        background: #041B2B;
+        color: #FFFFFF;
+        padding-block: 64px 32px;
+        border-top: 1px solid #0E4B72;
+        width: 100%;
+      }
+      .t360-footer-top {
+        display: grid;
+        grid-template-columns: 1.4fr 2fr;
+        gap: 48px;
+        margin-bottom: 48px;
+      }
+      .brand-desc {
+        font-size: 13.5px;
+        color: #94A3B8;
+        line-height: 1.7;
+        margin: 16px 0 24px 0;
+        max-width: 360px;
+      }
+      .brand-desc strong { color: #FFFFFF; }
+      .t360-socials { display: flex; gap: 14px; }
+      .t360-socials a { color: #94A3B8; transition: color 0.2s; }
+      .t360-socials a:hover { color: var(--color-yellow); }
+      .t360-socials svg { width: 18px; height: 18px; }
+
+      .t360-footer-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+      }
+      .footer-col h4 {
+        font-size: 14px;
+        font-weight: 800;
+        color: var(--color-yellow);
+        margin-bottom: 16px;
+        letter-spacing: 0.5px;
+      }
+      .footer-col ul { list-style: none; }
+      .footer-col li { margin-bottom: 12px; }
+      .footer-col a {
+        text-decoration: none;
+        color: #94A3B8;
+        font-size: 13.5px;
+        transition: color 0.15s;
+      }
+      .footer-col a:hover { color: #FFFFFF; }
+
+      .jr-contact-list li {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        font-size: 13px;
+        color: #94A3B8;
+        margin-bottom: 14px;
+      }
+      .jr-contact-list svg {
+        width: 16px;
+        height: 16px;
+        color: var(--color-yellow);
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+      .jr-address span { line-height: 1.5; }
+
+      .t360-footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #0E4B72;
+        padding-top: 24px;
+        font-size: 12.5px;
+        color: #64748B;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .legal-links a {
+        color: #64748B;
+        text-decoration: none;
+        margin-left: 16px;
+      }
+      .legal-links a:hover { color: #FFFFFF; }
+
+      /* ========================================================
+         OUR STORY & MISSION / NETWORK & TECHNOLOGY
+         ======================================================== */
+      .ab-story-section {
+        background: #FFFFFF;
+        width: 100%;
+      }
+      .ab-story-grid {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 48px;
+        align-items: start;
+      }
+      .ab-section-heading {
+        font-size: 38px;
+        font-weight: 800;
+        color: var(--color-navy);
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        margin-bottom: 24px;
+      }
+      .ab-story-copy p {
+        font-size: 15.5px;
+        color: var(--color-gray-600);
+        line-height: 1.7;
+        margin-bottom: 20px;
+      }
+      .ab-story-copy p strong {
+        color: var(--color-navy);
+        font-weight: 700;
+      }
+      .ab-callout-box {
+        background: #FFFDF5;
+        border-left: 4px solid var(--color-yellow);
+        padding: 20px 24px;
+        border-radius: 0 16px 16px 0;
+        margin: 24px 0;
+        font-size: 15px;
+        line-height: 1.65;
+        color: var(--color-navy);
+        box-shadow: 0 2px 8px rgba(254, 210, 1, 0.15);
+      }
+      .ab-callout-box strong {
+        color: var(--color-navy);
+        font-weight: 800;
+      }
+      .ab-feature-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .ab-feature-card {
+        background: #FFFFFF;
+        border: 1px solid var(--color-gray-200);
+        border-radius: 16px;
+        padding: 24px 28px;
+        transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      }
+      .ab-feature-card:hover {
+        border-color: var(--color-yellow);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(11, 61, 92, 0.08);
+      }
+      .ab-feature-card-icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+        background: var(--color-yellow-light);
+        color: var(--color-navy);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16px;
+      }
+      .ab-feature-card-icon svg {
+        width: 22px;
+        height: 22px;
+      }
+      .ab-feature-card h3 {
+        font-size: 18px;
+        font-weight: 800;
+        color: var(--color-navy);
+        margin-bottom: 8px;
+      }
+      .ab-feature-card p {
+        font-size: 14.5px;
+        color: var(--color-gray-600);
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      .ab-network-section {
+        background: var(--color-gray-50);
+        border-top: 1px solid var(--color-gray-200);
+        width: 100%;
+      }
+      .ab-network-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 48px;
+        align-items: center;
+      }
+      .ab-network-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+      .ab-network-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #FFFFFF;
+        border: 1.5px solid var(--color-yellow);
+        color: var(--color-navy);
+        padding: 8px 18px;
+        border-radius: 9999px;
+        font-size: 13.5px;
+        font-weight: 800;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+      }
+      .ab-network-tag::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--color-yellow);
+      }
+      .ab-network-card {
+        background: #0B3D5C;
+        color: #FFFFFF;
+        border-radius: 20px;
+        padding: 36px 32px;
+        box-shadow: 0 16px 36px rgba(11, 61, 92, 0.16);
+      }
+      .ab-network-card h3 {
+        font-size: 20px;
+        font-weight: 800;
+        color: var(--color-yellow);
+        margin-bottom: 16px;
+      }
+      .ab-network-card p {
+        font-size: 14.5px;
+        line-height: 1.65;
+        color: #E2E8F0;
+        margin-bottom: 24px;
+      }
+      .ab-carrier-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .ab-carrier-badge {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        padding: 6px 14px;
+        font-size: 12px;
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+
+      @media (max-width: 860px) {
+        .ab-story-grid,
+        .ab-network-grid {
+          grid-template-columns: 1fr;
+          gap: 36px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TOP UTILITY CONTACT BAR -->
+    <div class="jr-topbar">
+      <div class="t360-container jr-topbar-inner">
+        <div class="jr-topbar-contact">
+          <a href="tel:+447356068894">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+44 7356 068894</span>
+          </a>
+          <a href="mailto:hello@jetring.co.uk">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>hello@jetring.co.uk</span>
+          </a>
+        </div>
+        <div class="jr-topbar-right">
+          <span class="jr-uk-tag">Trusted UK Provider</span>
+          <div class="jr-topbar-socials">
+            <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1-2 2 2 2 0 0 1 2-2z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. HEADER & NAVIGATION (height: 72px) -->
+    <header class="t360-header">
+      <div class="t360-container t360-header-inner">
+        <a href="index.html" class="jr-logo" aria-label="JetRing Home">
+          <img src="https://jetring.co.uk/wp-content/uploads/2026/03/4b322074-8931-40ea-9507-193b33014269.jpg" alt="JetRing Logo" class="jr-logo-img" />
+        </a>
+
+        <nav class="t360-nav">
+          <a href="index.html">Home</a>
+          <a href="index.html#rates">Rate</a>
+          <a href="about.html" class="active">About us</a>
+          <a href="services.html">Our Services</a>
+        </nav>
+
+        <div class="t360-header-actions">
+          <a href="contact.html" class="jr-header-contact-btn">Contact Us</a>
+
+          <div class="t360-lang-wrapper" id="langDropdownWrapper">
+            <button type="button" class="t360-lang-btn" id="langToggleBtn" aria-label="Select Country">
+              <span class="lang-globe">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </span>
+              <span class="lang-label" id="currentLangLabel">Country | EN</span>
+              <svg class="lang-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+
+            <div class="t360-lang-menu" id="langMenu">
+              <div class="jr-search-box">
+                <input type="text" id="jrCountrySearch" placeholder="Search 52 destinations..." autocomplete="off">
+              </div>
+              <div class="menu-section-title">Global Destinations (52)</div>
+              <ul class="lang-list" id="jrCountryList">
+                <li><button type="button" class="lang-option" data-lang="en" data-code="GB"><span class="flag-circle flag-gb"></span><span>United Kingdom (+44)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="US"><span class="flag-circle flag-us"></span><span>United States (+1)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="NG"><span class="flag-circle flag-ng"></span><span>Nigeria (+234)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="GH"><span class="flag-circle flag-gh"></span><span>Ghana (+233)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="ZA"><span class="flag-circle flag-za"></span><span>South Africa (+27)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="KE"><span class="flag-circle flag-ke"></span><span>Kenya (+254)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="CA"><span class="flag-circle flag-ca"></span><span>Canada (+1)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="de" data-code="DE"><span class="flag-circle flag-de"></span><span>Germany (+49)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="fr" data-code="FR"><span class="flag-circle flag-fr"></span><span>France (+33)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="es" data-code="ES"><span class="flag-circle flag-es"></span><span>Spain (+34)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="IT"><span class="flag-circle flag-it"></span><span>Italy (+39)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="pt" data-code="PT"><span class="flag-circle flag-pt"></span><span>Portugal (+351)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="NL"><span class="flag-circle flag-nl"></span><span>Netherlands (+31)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="fr" data-code="BE"><span class="flag-circle flag-be"></span><span>Belgium (+32)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="de" data-code="CH"><span class="flag-circle flag-ch"></span><span>Switzerland (+41)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="de" data-code="AT"><span class="flag-circle flag-at"></span><span>Austria (+43)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="SE"><span class="flag-circle flag-se"></span><span>Sweden (+46)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="NO"><span class="flag-circle flag-no"></span><span>Norway (+47)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="DK"><span class="flag-circle flag-dk"></span><span>Denmark (+45)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="FI"><span class="flag-circle flag-fi"></span><span>Finland (+358)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="IE"><span class="flag-circle flag-ie"></span><span>Ireland (+353)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="PL"><span class="flag-circle flag-pl"></span><span>Poland (+48)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="uk" data-code="UA"><span class="flag-circle flag-ua"></span><span>Ukraine (+380)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="RO"><span class="flag-circle flag-ro"></span><span>Romania (+40)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="GR"><span class="flag-circle flag-gr"></span><span>Greece (+30)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="TR"><span class="flag-circle flag-tr"></span><span>Turkey (+90)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="EG"><span class="badge-circle">EG</span><span>Egypt (+20)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="MA"><span class="badge-circle">MA</span><span>Morocco (+212)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="DZ"><span class="badge-circle">DZ</span><span>Algeria (+213)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="TN"><span class="badge-circle">TN</span><span>Tunisia (+216)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="fr" data-code="SN"><span class="flag-circle flag-sn"></span><span>Senegal (+221)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="fr" data-code="CI"><span class="flag-circle flag-ci"></span><span>Ivory Coast (+225)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="fr" data-code="CM"><span class="flag-circle flag-cm"></span><span>Cameroon (+237)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="ET"><span class="flag-circle flag-et"></span><span>Ethiopia (+251)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="UG"><span class="flag-circle flag-ug"></span><span>Uganda (+256)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="TZ"><span class="flag-circle flag-tz"></span><span>Tanzania (+255)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="RW"><span class="flag-circle flag-rw"></span><span>Rwanda (+250)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="ZW"><span class="flag-circle flag-zw"></span><span>Zimbabwe (+263)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="ZM"><span class="flag-circle flag-zm"></span><span>Zambia (+260)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="IN"><span class="flag-circle flag-in"></span><span>India (+91)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="PK"><span class="flag-circle flag-pk"></span><span>Pakistan (+92)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="BD"><span class="flag-circle flag-bd"></span><span>Bangladesh (+880)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="AE"><span class="badge-circle">AE</span><span>UAE (+971)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="SA"><span class="badge-circle">SA</span><span>Saudi Arabia (+966)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="QA"><span class="badge-circle">QA</span><span>Qatar (+974)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="KW"><span class="badge-circle">KW</span><span>Kuwait (+965)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="ar" data-code="OM"><span class="badge-circle">OM</span><span>Oman (+968)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="pt" data-code="BR"><span class="flag-circle flag-br"></span><span>Brazil (+55)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="es" data-code="MX"><span class="flag-circle flag-mx"></span><span>Mexico (+52)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="es" data-code="CO"><span class="flag-circle flag-co"></span><span>Colombia (+57)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="es" data-code="AR"><span class="flag-circle flag-ar"></span><span>Argentina (+54)</span></button></li>
+                <li><button type="button" class="lang-option" data-lang="en" data-code="AU"><span class="flag-circle flag-au"></span><span>Australia (+61)</span></button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 3. HERO SECTION (3-COLUMN DESKTOP LAYOUT) -->
+    <section class="ab-hero-section">
+      <div class="t360-container">
+        <div class="ab-hero-stage">
+          <!-- Left Column: Two vertically stacked user avatar cards (London, Lagos) -->
+          <div class="ab-hero-avatars left">
+            <div class="ab-avatar-card">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=360&q=80" alt="Caller in London">
+              <div class="ab-avatar-badge">
+                <span>🇬🇧 London, UK</span>
+                <span class="status-dot"></span>
+              </div>
+            </div>
+
+            <div class="ab-avatar-card">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=360&q=80" alt="Caller in Lagos">
+              <div class="ab-avatar-badge">
+                <span>🇳🇬 Lagos, Nigeria</span>
+                <span class="status-dot"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Center Column: Main text stack -->
+          <div class="ab-hero-center">
+            <div class="badge-pill">
+              <span>UK Telecommunications Provider</span>
+            </div>
+
+            <h1 class="ab-hero-title">
+              About JetRing
+            </h1>
+
+            <p class="ab-hero-subheadline">
+              Connecting the UK, Africa, and the world with reliable and affordable communication services.
+            </p>
+
+            <!-- Store CTA Buttons -->
+            <div class="ab-store-row">
+              <a href="#" class="ab-store-btn" aria-label="Download on the App Store">
+                <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.8c.63-.77 1.06-1.85.94-2.93-1 .04-2.13.67-2.77 1.44-.57.66-1.07 1.74-.93 2.8 1.11.09 2.18-.55 2.76-1.31z"/></svg>
+                <div class="store-labels">
+                  <span class="store-small">Download on the</span>
+                  <span class="store-large">App Store</span>
+                </div>
+              </a>
+
+              <a href="#" class="ab-store-btn" aria-label="Get it on Google Play">
+                <svg viewBox="0 0 24 24"><path d="M3.6 2.2c-.3.3-.4.8-.4 1.4v16.8c0 .6.2 1.1.4 1.4l9.7-9.8L3.6 2.2zm11.1 11.2l2.3-2.3c.6-.6.6-1.6 0-2.2l-2.3-2.3-3 3 3 3.8zm-1.4 1.4l-7.7 7.7c.3.1.7.1 1.2-.1l8.7-5-2.2-2.6zm-2.2-4.4l2.2-2.6-8.7-5c-.5-.3-.9-.2-1.2 0l7.7 7.6z"/></svg>
+                <div class="store-labels">
+                  <span class="store-small">GET IT ON</span>
+                  <span class="store-large">Google Play</span>
+                </div>
+              </a>
+            </div>
+
+            <!-- Guarantee Note -->
+            <div class="ab-hero-guarantee">
+              <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              <span>First minute on us · No credit card required</span>
+            </div>
+
+            <!-- Mobile Avatar Row -->
+            <div class="ab-mobile-avatars">
+              <div class="ab-mobile-avatars-row">
+                <div class="ab-mobile-avatar-pill">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="London">
+                  <span>🇬🇧 London</span>
+                </div>
+                <div class="ab-mobile-avatar-pill">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Lagos">
+                  <span>🇳🇬 Lagos</span>
+                </div>
+                <div class="ab-mobile-avatar-pill">
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="Toronto">
+                  <span>🇨🇦 Toronto</span>
+                </div>
+                <div class="ab-mobile-avatar-pill">
+                  <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80" alt="Nairobi">
+                  <span>🇰🇪 Nairobi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Two vertically stacked user avatar cards (Toronto, Nairobi) -->
+          <div class="ab-hero-avatars right">
+            <div class="ab-avatar-card">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=360&q=80" alt="Caller in Toronto">
+              <div class="ab-avatar-badge">
+                <span>🇨🇦 Toronto, CA</span>
+                <span class="status-dot"></span>
+              </div>
+            </div>
+
+            <div class="ab-avatar-card">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=360&q=80" alt="Caller in Nairobi">
+              <div class="ab-avatar-badge">
+                <span>🇰🇪 Nairobi, KE</span>
+                <span class="status-dot"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. NETWORK & TECHNOLOGY SECTION -->
+    <section class="ab-network-section ab-section-space" id="network">
+      <div class="t360-container">
+        <h2 class="ab-section-heading">Network & Technology</h2>
+
+        <div class="ab-network-grid">
+          <!-- Left Column Body Copy -->
+          <div class="ab-network-copy">
+            <p>
+              JetRing operates on a modern telecommunications infrastructure designed to deliver reliable international calling services. By leveraging advanced VoIP technology and partnerships with global telecom carriers, we provide clear voice quality and stable connections to destinations around the world.
+            </p>
+            <p>
+              Our platform is built to support scalable communication services including international calling, digital connectivity, and SIM and eSIM solutions for individuals and businesses.
+            </p>
+
+            <!-- Pill Badges / Feature Tags -->
+            <div class="ab-network-tags">
+              <span class="ab-network-tag">VoIP Core</span>
+              <span class="ab-network-tag">Global SIP Trunks</span>
+              <span class="ab-network-tag">Tier-1 Carriers</span>
+              <span class="ab-network-tag">99.9% Uptime</span>
+              <span class="ab-network-tag">HD Voice</span>
+            </div>
+          </div>
+
+          <!-- Right Column Technology Display -->
+          <div class="ab-network-card">
+            <h3>Enterprise-Grade Carrier Backbone</h3>
+            <p>Our distributed SIP trunks route international voice traffic directly through licensed Tier-1 interconnects across the UK, Europe, Africa, and North America.</p>
+            <div class="ab-carrier-badges">
+              <span class="ab-carrier-badge">Tier-1 Routing</span>
+              <span class="ab-carrier-badge">SIP Over TLS</span>
+              <span class="ab-carrier-badge">Low Latency</span>
+              <span class="ab-carrier-badge">G.711 / Opus Codec</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. OUR STORY & MISSION SECTION -->
+    <section class="ab-story-section ab-section-space" id="story">
+      <div class="t360-container">
+        <h2 class="ab-section-heading">Our Story & Mission</h2>
+
+        <div class="ab-story-grid">
+          <!-- Left Column Body Copy -->
+          <div class="ab-story-copy">
+            <p>
+              JetRing Solutions Ltd is a UK-based telecommunications company focused on delivering affordable and reliable international communication services.
+            </p>
+            <p>
+              Our mission is to simplify global connectivity by enabling people and businesses to stay connected across borders.
+            </p>
+            <p>
+              JetRing operates a modern communication platform that allows users to make high-quality international calls through mobile applications and digital telecom solutions. By leveraging VoIP technology and global telecom partnerships, we provide stable and cost-effective calling services to destinations worldwide.
+            </p>
+
+            <!-- Highlight / Callout Box -->
+            <div class="ab-callout-box">
+              <strong>Diaspora Focus:</strong> Our services support diaspora communities connecting the UK, Africa and other international markets. JetRing also provides telecom solutions including international calling, SIM and eSIM connectivity, and other digital communication services.
+            </div>
+
+            <p>
+              We are open to partnerships and collaboration with telecom providers, technology partners and distribution partners interested in expanding global communication services.
+            </p>
+          </div>
+
+          <!-- Right Column Feature Cards -->
+          <div class="ab-feature-cards">
+            <!-- Card 1: VoIP Technology -->
+            <div class="ab-feature-card">
+              <div class="ab-feature-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/><circle cx="16" cy="7" r="1"/><circle cx="19" cy="4" r="1"/></svg>
+              </div>
+              <h3>VoIP Technology</h3>
+              <p>Crystal-clear voice calls powered by advanced Internet-based communication protocols with HD audio quality.</p>
+            </div>
+
+            <!-- Card 2: SIM Connectivity -->
+            <div class="ab-feature-card">
+              <div class="ab-feature-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4a2 2 0 0 1 2-2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4z"/><path d="M8 10h4v4H8z"/><path d="M12 10v4"/><path d="M8 14h4"/><path d="M14 2v6h6"/></svg>
+              </div>
+              <h3>SIM Connectivity</h3>
+              <p>Physical SIM cards for seamless roaming and local rates across multiple countries without bill shock.</p>
+            </div>
+
+            <!-- Card 3: eSIM Solutions -->
+            <div class="ab-feature-card">
+              <div class="ab-feature-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="3" ry="3"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-width="3"/><path d="M8.5 7.5h7M8.5 10.5h7"/></svg>
+              </div>
+              <h3>eSIM Solutions</h3>
+              <p>Digital SIM technology for instant activation without physical cards, perfect for frequent travellers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. COMPARISON SECTION (DARK THEME) -->
+    <section class="ab-compare-section ab-section-space">
+      <div class="t360-container">
+        <!-- Header Stack -->
+        <div class="ab-compare-header">
+          <div class="badge-pill">
+            <span>THE ONE THING THAT MAKES JETRING DIFFERENT</span>
+          </div>
+
+          <h2 class="ab-compare-title">
+            Most calling apps need the internet on both ends.<br>
+            <span class="accent-yellow">JetRing doesn't.</span>
+          </h2>
+        </div>
+
+        <!-- Comparison Grid -->
+        <div class="ab-compare-grid">
+          <!-- Left Card (Competitors) -->
+          <div class="ab-card-competitor">
+            <span class="card-label">MOST CALLING APPS</span>
+            <h3>Work through the internet.</h3>
+            <p>
+              The person on the other end needs Wi-Fi, a data plan, and the exact same app installed as you. If any of that is missing, the call never connects.
+            </p>
+            <ul class="ab-feature-list">
+              <li>
+                <span class="icon-cross">✕</span>
+                <span>Needs Wi-Fi or active mobile data</span>
+              </li>
+              <li>
+                <span class="icon-cross">✕</span>
+                <span>Needs a compatible smartphone</span>
+              </li>
+              <li>
+                <span class="icon-cross">✕</span>
+                <span>Needs the same app downloaded & registered</span>
+              </li>
+              <li>
+                <span class="icon-cross">✕</span>
+                <span>Cannot reach standard landlines or offline feature phones</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right Card (JetRing Solution) -->
+          <div class="ab-card-jetring">
+            <span class="card-label">JETRING DIRECT VOICE</span>
+            <h3>Uses voice infrastructure — the same network that carries regular phone calls.</h3>
+            <p>
+              The person you're calling receives it just like any regular phone call. No app. No internet. No smartphone required on their side.
+            </p>
+            <ul class="ab-feature-list">
+              <li>
+                <span class="icon-check">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </span>
+                <span>Reaches any mobile or landline across 50+ countries</span>
+              </li>
+              <li>
+                <span class="icon-check">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </span>
+                <span>Works completely offline on their side — zero internet needed</span>
+              </li>
+              <li>
+                <span class="icon-check">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </span>
+                <span>Nothing for them to install, set up, or register</span>
+              </li>
+              <li>
+                <span class="icon-check">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </span>
+                <span>Carrier-grade voice clarity without VoIP lag or jitter</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. "HOW TO MAKE YOUR FIRST CALL" SECTION -->
+    <section class="ab-steps-section ab-section-space">
+      <div class="t360-container">
+        <!-- Header Stack: centered with margin-bottom: 48px -->
+        <div class="ab-steps-header">
+          <div class="badge-pill">
+            <span>HOW TO MAKE YOUR FIRST CALL</span>
+          </div>
+          <h2 class="ab-steps-title">From install to "hello", in minutes.</h2>
+          <p class="ab-steps-subtext">Connect with anyone worldwide in 5 simple, transparent steps.</p>
+        </div>
+
+        <!-- Step Cards Container: max-width: 840px -->
+        <div class="ab-steps-container">
+          <!-- Step 01 -->
+          <div class="ab-step-item">
+            <div class="ab-step-left">
+              <div class="ab-step-pill-number">01</div>
+              <div class="ab-step-text-block">
+                <h4>Download JetRing</h4>
+                <p>Free on iOS or Android. No SIM swap or setup required.</p>
+              </div>
+            </div>
+            <div class="ab-step-store-buttons">
+              <a href="#" class="ab-step-store-btn" aria-label="App Store">
+                <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.8c.63-.77 1.06-1.85.94-2.93-1 .04-2.13.67-2.77 1.44-.57.66-1.07 1.74-.93 2.8 1.11.09 2.18-.55 2.76-1.31z"/></svg>
+                <span>App Store</span>
+              </a>
+              <a href="#" class="ab-step-store-btn" aria-label="Google Play">
+                <svg viewBox="0 0 24 24"><path d="M3.6 2.2c-.3.3-.4.8-.4 1.4v16.8c0 .6.2 1.1.4 1.4l9.7-9.8L3.6 2.2zm11.1 11.2l2.3-2.3c.6-.6.6-1.6 0-2.2l-2.3-2.3-3 3 3 3.8zm-1.4 1.4l-7.7 7.7c.3.1.7.1 1.2-.1l8.7-5-2.2-2.6zm-2.2-4.4l2.2-2.6-8.7-5c-.5-.3-.9-.2-1.2 0l7.7 7.6z"/></svg>
+                <span>Google Play</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="ab-step-item">
+            <div class="ab-step-left">
+              <div class="ab-step-pill-number">02</div>
+              <div class="ab-step-text-block">
+                <h4>Verify your own phone number</h4>
+                <p>Sign up in under two minutes with your regular mobile number. No credit card required.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="ab-step-item">
+            <div class="ab-step-left">
+              <div class="ab-step-pill-number">03</div>
+              <div class="ab-step-text-block">
+                <h4>Buy call credit</h4>
+                <p>60+ payment options across 18 currencies — mobile money, Apple Pay, cards, or bank transfer.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="ab-step-item">
+            <div class="ab-step-left">
+              <div class="ab-step-pill-number">04</div>
+              <div class="ab-step-text-block">
+                <h4>Dial any number</h4>
+                <p>Connect straight to your phone contacts or type any international mobile or landline.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 05 -->
+          <div class="ab-step-item">
+            <div class="ab-step-left">
+              <div class="ab-step-pill-number">05</div>
+              <div class="ab-step-text-block">
+                <h4>They pick up</h4>
+                <p>The person you call receives a normal phone call. No app, no Wi-Fi, and no smartphone needed on their end.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. FAQ SECTION (2-COLUMN ASYMMETRIC GRID: 4fr 7fr) -->
+    <section class="ab-faq-section ab-section-space" id="faq">
+      <div class="t360-container">
+        <div class="ab-faq-grid">
+          <!-- Left Column: Tag + H2 + Subtext + CTA Button (margin-top: 32px) -->
+          <div class="ab-faq-left">
+            <div class="badge-pill">
+              <span>FREQUENTLY ASKED QUESTIONS</span>
+            </div>
+            <h2>Everything you<br>need to know.</h2>
+            <p>Still have questions about calling rates, recipient phones, or setting up? Our UK support team is here around the clock.</p>
+
+            <a href="#contact" class="ab-faq-cta-btn">
+              <span>Visit Help & Contact</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Right Column: Accordion Stack (gap: 16px) -->
+          <div class="ab-accordion-stack">
+            <!-- FAQ 1 (Active/Open by default) -->
+            <div class="ab-accordion-item active">
+              <button type="button" class="ab-accordion-trigger" aria-expanded="true">
+                <span>Do the people I call need the JetRing app?</span>
+                <svg class="ab-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="ab-accordion-body">
+                No. The person you're calling does not need the JetRing app, an internet connection, or a smartphone. They simply receive a normal phone call on their mobile or landline anywhere in the world.
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="ab-accordion-item">
+              <button type="button" class="ab-accordion-trigger" aria-expanded="false">
+                <span>How much does it cost to call?</span>
+                <svg class="ab-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="ab-accordion-body">
+                JetRing provides direct carrier telephony with low per-minute rates starting from £0.03/min. There are no hidden subscription fees, monthly contracts, or connection charges. Check our live rates calculator on the home page.
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="ab-accordion-item">
+              <button type="button" class="ab-accordion-trigger" aria-expanded="false">
+                <span>Can I call landlines and basic feature phones?</span>
+                <svg class="ab-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="ab-accordion-body">
+                Yes, absolutely. Because JetRing bridges directly into the worldwide telecommunication grid, you can reach office landlines, home phones, and basic button phones with zero internet capability.
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="ab-accordion-item">
+              <button type="button" class="ab-accordion-trigger" aria-expanded="false">
+                <span>What payment methods are supported?</span>
+                <svg class="ab-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="ab-accordion-body">
+                We support over 60 local and international payment methods in 18 currencies, including Visa, Mastercard, Apple Pay, Google Pay, local Mobile Money (M-Pesa, MTN, Airtel), and direct bank transfers.
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="ab-accordion-item">
+              <button type="button" class="ab-accordion-trigger" aria-expanded="false">
+                <span>How does the 'First minute on us' offer work?</span>
+                <svg class="ab-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="ab-accordion-body">
+                When you download the app and verify your phone number, your first test minute is automatically credited for free so you can test our call quality with zero payment obligation or credit card details required.
+              </div>
+            </div>
+
+            <!-- FAQ 6 -->
+            <div class="ab-accordion-item">
+              <button type="button" class="ab-accordion-trigger" aria-expanded="false">
+                <span>I did not receive my verification code, what can I do?</span>
+                <svg class="ab-accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="ab-accordion-body">
+                Verification SMS codes typically arrive within 30 seconds. Ensure your device has cellular reception, or tap "Resend code". You can also request instant verification via phone call or contact our 24/7 support line.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer class="t360-footer" id="contact">
+      <div class="t360-container">
+        <div class="t360-footer-top">
+          <div class="t360-footer-brand">
+            <a href="index.html" class="jr-logo light" aria-label="JetRing Home">
+              <img src="https://jetring.co.uk/wp-content/uploads/2026/03/4b322074-8931-40ea-9507-193b33014269.jpg" alt="JetRing Logo" class="jr-logo-img" />
+            </a>
+            <p class="brand-desc">
+              Reliable global communication powered by modern telecommunications technology.<br><br>
+              <strong>JetRing Solutions Ltd</strong><br>
+              United Kingdom Registered with the UK Information Commissioner's Office (ICO)<br>
+              Registration Number: <strong>ZC092955</strong>
+            </p>
+            <div class="t360-socials">
+              <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1-2 2 2 2 0 0 1 2-2z"/></svg></a>
+              <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            </div>
+          </div>
+
+          <div class="t360-footer-links">
+            <div class="footer-col">
+              <h4>Navigation</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#rates">Rate</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="index.html#services">International Calling</a></li>
+                <li><a href="index.html#services">VoIP Communication</a></li>
+                <li><a href="index.html#sim">eSIM Technology</a></li>
+                <li><a href="index.html#sim">International SIM</a></li>
+                <li><a href="index.html#rates">Check Rates</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Get in touch</h4>
+              <ul class="jr-contact-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <a href="mailto:hello@jetring.co.uk">hello@jetring.co.uk</a>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <a href="tel:+447356068894">+44 7356 068894</a>
+                </li>
+                <li class="jr-address">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  <span>71-75 Shelton Street, Covent Garden, London WC2H 9JQ</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="t360-footer-bottom">
+          <div class="copyright">© 2026 JetRing Solutions Ltd. All rights reserved.</div>
+          <div class="legal-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Settings</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT: ACCORDION & DROPDOWN -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Dropdown toggle
+        var wrapper = document.getElementById('langDropdownWrapper');
+        var toggleBtn = document.getElementById('langToggleBtn');
+        var searchInput = document.getElementById('jrCountrySearch');
+        if (toggleBtn && wrapper) {
+          toggleBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            wrapper.classList.toggle('active');
+            if (wrapper.classList.contains('active') && searchInput) {
+              setTimeout(function() { searchInput.focus(); }, 100);
+            }
+          });
+          document.addEventListener('click', function(e) {
+            if (!wrapper.contains(e.target)) wrapper.classList.remove('active');
+          });
+        }
+
+        // Country selection in dropdown
+        var langOptions = document.querySelectorAll('#jrCountryList .lang-option');
+        var langLabel = document.getElementById('currentLangLabel');
+        langOptions.forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            var code = btn.getAttribute('data-code');
+            if (langLabel && code) {
+              langLabel.textContent = code + ' | EN';
+            }
+            if (wrapper) wrapper.classList.remove('active');
+          });
+        });
+
+        // Country search filtering
+        if (searchInput) {
+          searchInput.addEventListener('input', function() {
+            var val = searchInput.value.toLowerCase().trim();
+            var items = document.querySelectorAll('#jrCountryList li');
+            items.forEach(function(item) {
+              var text = item.textContent.toLowerCase();
+              if (text.indexOf(val) !== -1) {
+                item.style.display = '';
+              } else {
+                item.style.display = 'none';
+              }
+            });
+          });
+        }
+
+        // Accordion functionality for .ab-accordion-item
+        var triggers = document.querySelectorAll('.ab-accordion-trigger');
+        triggers.forEach(function(btn) {
+          btn.addEventListener('click', function() {
+            var item = btn.closest('.ab-accordion-item');
+            var isAlreadyActive = item.classList.contains('active');
+
+            // Close all items
+            document.querySelectorAll('.ab-accordion-item').forEach(function(el) {
+              el.classList.remove('active');
+              var triggerBtn = el.querySelector('.ab-accordion-trigger');
+              if (triggerBtn) triggerBtn.setAttribute('aria-expanded', 'false');
+            });
+
+            // If it wasn't already active, open it
+            if (!isAlreadyActive) {
+              item.classList.add('active');
+              btn.setAttribute('aria-expanded', 'true');
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

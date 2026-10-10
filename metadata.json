@@ -1,0 +1,8 @@
+{
+  "name": "JetRing - Affordable International Calling \u0026 Telecom Solutions",
+  "description": "JetRing provides reliable global communication solutions connecting the UK, Africa, and worldwide destinations with affordable rates and eSIM connectivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
